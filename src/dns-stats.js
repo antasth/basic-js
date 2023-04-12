@@ -23,7 +23,6 @@ const { NotImplementedError } = require('../extensions/index.js')
  *
  */
 
-// domains = ['yandex.ru']
 function getDNSStats(domains) {
   let arr = []
   let res = []
@@ -46,7 +45,6 @@ function getDNSStats(domains) {
   return obj
 }
 
-// console.log(getDNSStats(domains))
 
 module.exports = {
   getDNSStats,
