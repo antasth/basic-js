@@ -38,7 +38,6 @@ function getDNSStats(domains) {
     }
   })
   const resItems = [...new Set(res)]
-  console.log(res)
   const obj = resItems.reduce((object, value) => {
     return { ...object, [value]: res.filter((item) => item === value).length }
   }, {})

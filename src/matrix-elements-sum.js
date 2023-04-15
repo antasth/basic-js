@@ -41,6 +41,3 @@ module.exports = {
   getMatrixElementsSum,
 }
 
-const arr = [1, 3, 6]
-arr.splice(1, 1)
-console.log(arr)
